@@ -4,9 +4,7 @@ Gem::Specification.new do |s|
   s.date = '2020-05-19'
   s.summary = 'OmniAuth provider for Bottlenose'
   s.authors = ['CodeGrade']
-  s.files = [
-    'lib/omniauth/strategies/bottlenose.rb'
-  ]
+  s.files = `git ls-files`.split("\n")
   s.require_paths = ['lib']
   s.add_dependency 'omniauth-oauth2', '~> 1.6.0'
 end
