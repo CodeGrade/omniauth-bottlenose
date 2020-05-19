@@ -1,5 +1,3 @@
-$:.push File.expand_path('../lib', __FILE__)
-
 Gem::Specification.new do |s|
   s.name = 'omniauth-bottlenose'
   s.version = '0.1.0'
