@@ -6,5 +6,5 @@ Gem::Specification.new do |s|
   s.authors = ['CodeGrade']
   s.files = `git ls-files`.split("\n")
   s.require_paths = ['lib']
-  s.add_dependency 'omniauth-oauth2', '~> 1.6.0'
+  s.add_dependency 'omniauth-oauth2', '~> 1.7.0'
 end
